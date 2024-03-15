@@ -88,6 +88,12 @@ public class musicGUI extends javax.swing.JFrame {
         genreLBL.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         genreLBL.setText("Genre:");
 
+        songTF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                songTFActionPerformed(evt);
+            }
+        });
+
         addBTN.setText("Add To Liked ");
         addBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,7 +207,6 @@ public class musicGUI extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(songTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(songLBL))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -384,6 +389,10 @@ public class musicGUI extends javax.swing.JFrame {
             playlist2.pop();
         }
     }//GEN-LAST:event_playlist2to1BTNActionPerformed
+
+    private void songTFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_songTFActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_songTFActionPerformed
 
     /**
      * @param args the command line arguments
