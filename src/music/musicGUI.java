@@ -174,7 +174,7 @@ public class musicGUI extends javax.swing.JFrame {
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addGroup(jPanel1Layout.createSequentialGroup()
                                                 .addComponent(addBTN)
-                                                .addGap(111, 111, 111)
+                                                .addGap(116, 116, 116)
                                                 .addComponent(deleteBTN)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                                 .addComponent(searchBTN))
