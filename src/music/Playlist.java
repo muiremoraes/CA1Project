@@ -18,10 +18,11 @@ public interface Playlist {
     
     public void deleteSong(String songName);
   
-    public void addSong(Song song);
-    public Song pop();
-    public Song searchSong(String songName);
+    public void addSong(Song song); //add song
+    public Song pop(); // get rid of top one
+    public Song searchSong(String songName); // serach for the song
     public int songCount();
+    //size 
     public String getSongsAsString();
-    //add stuff for printing the list here
+    // add list here 
 }

@@ -9,5 +9,12 @@ package music;
  * @author marym
  */
 public interface Stack {
+    public void deleteSong(String songName);
+  
+    public void addSong(Song song);
+    public Song pop();
+    public Song searchSong(String songName);
+    public int songCount();
+    public String getSongsAsString();
     
 }
