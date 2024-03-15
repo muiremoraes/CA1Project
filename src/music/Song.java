@@ -8,7 +8,7 @@ package music;
  *
  * @author marym
  */
-public class Song  {
+public class Song implements Nameable {
     private String name;
     private String genre; 
 
@@ -17,10 +17,12 @@ public class Song  {
         this.genre = " ";
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public void setName(String name) {
         this.name = name;
     }
